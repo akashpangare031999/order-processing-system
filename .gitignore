@@ -1,0 +1,118 @@
+# ===============================
+
+# 🧠 Java / Spring Boot
+
+# ===============================
+
+target/
+build/
+*.class
+*.jar
+*.war
+*.ear
+
+# Logs
+
+*.log
+logs/
+
+# ===============================
+
+# 🧰 Maven / Gradle
+
+# ===============================
+
+.mvn/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Gradle
+
+.gradle/
+build/
+
+# ===============================
+
+# 💻 IDEs
+
+# ===============================
+
+# IntelliJ
+
+.idea/
+*.iml
+
+# VS Code
+
+.vscode/
+
+# Eclipse
+
+.project
+.classpath
+.settings/
+
+# ===============================
+
+# 🐳 Docker
+
+# ===============================
+
+docker-data/
+*.env
+.env
+
+# ===============================
+
+# 🐘 PostgreSQL (Local Data)
+
+# ===============================
+
+postgres-data/
+
+# ===============================
+
+# 🔴 Redis (if using volume)
+
+# ===============================
+
+redis-data/
+
+# ===============================
+
+# 📦 Node (if frontend added later)
+
+# ===============================
+
+node_modules/
+
+# ===============================
+
+# 🔐 Secrets / Config
+
+# ===============================
+
+application-local.yml
+application-prod.yml
+*.key
+*.pem
+
+# ===============================
+
+# 🧪 OS Files
+
+# ===============================
+
+.DS_Store
+Thumbs.db
+
+# ===============================
+
+# 📊 Misc
+
+# ===============================
+
+*.swp
+*.swo
+*~
